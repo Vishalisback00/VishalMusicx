@@ -1,3 +1,4 @@
+
 <!-- ✨ Animated Header (Top) -->
 
 <p align="center">
@@ -13,7 +14,7 @@
         <img src="https://files.catbox.moe/r2ga8f.jpg" width="90px" style="border-radius: 50%;" />
       </td>
       <td>
-        <img src="https://readme-typing-svg.herokuapp.com?color=00BFFF&width=600&lines=Hey+There,+This+is+Certified+Coder+%F0%9F%A5%80+%E2%9D%97%EF%B8%8F" />
+        <img src="https://readme-typing-svg.herokuapp.com?color=00BFFF&width=600&lines=Hey+There,+This+is+Vishal+%F0%9F%A5%80+%E2%9D%97%EF%B8%8F" />
       </td>
     </tr>
   </table>
@@ -22,11 +23,11 @@
 <!-- 👁 Visitor Counter -->
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=@Its_me_Vishall&style=flat-square" />
+  <img src="https://komarev.com/ghpvc/?username=ItsMeVishal0&style=flat-square" />
 </p>
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=FF69B4&width=500&lines=Welcome+to+Vishal+%F0%9F%8E%B6+The+Robot;Your+Ultimate+Telegram+Music+Bot" />
+  <img src="https://readme-typing-svg.herokuapp.com?color=FF69B4&width=500&lines=Welcome+to+Shruti+Music+%F0%9F%8E%B6+The+Robot;Your+Ultimate+Telegram+Music+Bot" />
 </h1>
 
 <p align="center">
@@ -36,21 +37,21 @@
 </p>
 
 <p align="center">
-  <a href="https://t.me/VishalXRobot"><img src="https://img.shields.io/badge/Try%20Bot-@VishalXRobot-blue?style=for-the-badge&logo=telegram"/></a>
+  <a href="https://t.me/Shrutimusic_bot"><img src="https://img.shields.io/badge/Try%20Bot-@Shrutimusic_bot-blue?style=for-the-badge&logo=telegram"/></a>
 </p>
 
 
 <p align="center">
-  <a href="https://github.com/CertifiedCoders/VishalXMusic/stargazers"><img src="https://img.shields.io/github/stars/CertifiedCoders/VishalXMusic?style=flat-square"/></a>
-  <a href="https://github.com/CertifiedCoders/VishalXMusic/network/members"><img src="https://img.shields.io/github/forks/CertifiedCoders/VishalXMusic?style=flat-square"/></a>
-  <a href="https://github.com/CertifiedCoders/VishalXMusic/issues"><img src="https://img.shields.io/github/issues/CertifiedCoders/VishalXMusic?style=flat-square"/></a>
-  <a href="https://github.com/CertifiedCoders/VishalXMusic/commits/main"><img src="https://img.shields.io/github/last-commit/CertifiedCoders/VishalXMusic?style=flat-square"/></a>
-  <a href="https://github.com/CertifiedCoders/VishalXMusic/actions"><img src="https://img.shields.io/badge/CI-Status-grey?style=flat-square"/></a>
+  <a href="https://github.com/ItsMeVishal0/VishalMusic/stargazers"><img src="https://img.shields.io/github/stars/ItsMeVishal0/VishalMusic?style=flat-square"/></a>
+  <a href="https://github.com/ItsMeVishal0/VishalMusic/network/members"><img src="https://img.shields.io/github/forks/ItsMeVishal0/VishalMusic?style=flat-square"/></a>
+  <a href="https://github.com/ItsMeVishal0/VishalMusic/issues"><img src="https://img.shields.io/github/issues/ItsMeVishal0/VishalMusic?style=flat-square"/></a>
+  <a href="https://github.com/ItsMeVishal0/VishalMusic/commits/main"><img src="https://img.shields.io/github/last-commit/ItsMeVishal0/VishalMusic?style=flat-square"/></a>
+  <a href="https://github.com/ItsMeVishal0/VishalMusic/actions"><img src="https://img.shields.io/badge/CI-Status-grey?style=flat-square"/></a>
 </p>
 
-## 🌟 What is VishalXMusic?
+## 🌟 What is Shruti Music Bot?
 
-**VishalXMusic** is a modern Telegram bot that streams **high-quality music** into group voice chats.
+**Shruti Music Bot** is a modern Telegram bot that streams **high-quality music** into group voice chats.
 Powered by **Pyrogram + PyTgCalls**, it supports multiple platforms like **YouTube, Spotify, Apple Music, SoundCloud, Resso, and more**.
 It also includes **basic group management features** for convenience.
 
@@ -93,14 +94,12 @@ API_KEY=             # Optional - External API key for music Download
 API_URL=             # Optional - External API url for music Download
 ```
 
-⚠️ **Never expose raw cookies or tokens in public repos.** Use safe paste services like [Pastebin](https://pastebin.com) or [Batbin](https://batbin.me).
+⚠️ Never expose raw cookies or tokens in public repos. Use safe paste services like Pastebin or Batbin.
 
-##
+
 
 <details>
   <summary><b>Where do I get each key?</b></summary>
-
-  <!-- Added: Well‑organized helper table -->
 
   <br/>
 
@@ -152,9 +151,9 @@ API_URL=             # Optional - External API url for music Download
         <td>
           1) Create private channel/group →
           2) Add your bot as admin →
-          3) Get ID via <code>@VishalXRobot</code> or <code>@MissRose_Bot</code>
+          3) Get ID via <code>@Shrutimusic_bot</code> or <code>@MissRose_Bot</code>
         </td>
-        <td>Use a private space so logs aren’t public.</td>
+        <td>Use a private space so logs aren't public.</td>
       </tr>
       <tr>
         <td><code>MONGO_DB_URI</code></td>
@@ -188,16 +187,16 @@ API_URL=             # Optional - External API url for music Download
   <br/>
 </details>
 
-##
 
-### ☕ VPS Setup Guide
+
+☕ VPS Setup Guide
 
 <img src="https://img.shields.io/badge/Show%20/Hide-VPS%20Steps-0ea5e9?style=for-the-badge" alt="Toggle VPS Steps"/>
 <div align="left">
   <details>
 
 ```bash
-🎵 Deploy VishalXMusic on VPS
+🎵 Deploy Shruti Music Bot on VPS
 
 ### Step 1: Update & Install Packages
 sudo apt update && sudo apt upgrade -y
@@ -207,9 +206,9 @@ sudo apt install -y nodejs
 npm install -g npm
 
 ### Step 2: Clone Repo
-git clone https://github.com/CertifiedCoders/VishalXMusic
-cd VishalXMusic
-tmux new -s Vishal
+git clone https://github.com/ItsMeVishal0/VishalMusic.git
+cd VishalMusic
+tmux new -s Shruti
 
 ### Step 3: Setup & Run
 python3 -m venv venv
@@ -220,17 +219,17 @@ bash start   # Start bot
 
 ### Useful Commands
 tmux detach         # Use Ctrl+B, then D
-tmux attach-session -t Vishal # Attach to Running Bot session
-tmux kill-session -t Vishal # to kill the running bot session
-rm -rf VishalXMusic  # Uninstall the repo
+tmux attach-session -t Shruti # Attach to Running Bot session
+tmux kill-session -t Shruti # to kill the running bot session
+rm -rf VishalMusic  # Uninstall the repo
 ```
 
   </details>
 </div>
 
-##
 
-### 🐳 Docker Deployment
+
+🐳 Docker Deployment
 
 <img src="https://img.shields.io/badge/Show%20/Hide-Docker%20Steps-10b981?style=for-the-badge" alt="Toggle Docker Steps"/>
 
@@ -239,25 +238,25 @@ rm -rf VishalXMusic  # Uninstall the repo
 
 ```bash
 ### Step 1: Clone Repo
-git clone https://github.com/CertifiedCoders/VishalXMusic
-cd VishalXMusic
+git clone https://github.com/ItsMeVishal0/VishalMusic.git
+cd VishalMusic
 
 ### Step 2: Create .env File
 nano .env
 # Paste your environment variables here and save (Ctrl+O, Enter, Ctrl+X)
 
 ### Step 3: Build Image
-docker build -t vishalxmusic .
+docker build -t shrutimusicbot .
 
 ### Step 4: Run Container
-docker run -d --name vishal --env-file .env --restart unless-stopped vishalxmusic
+docker run -d --name shruti --env-file .env --restart unless-stopped shrutimusicbot
 
 ### Step 5: Manage Container
-docker logs -f vishal        # View logs (Ctrl+C to exit)
-docker stop vishal           # Stop container
-docker start vishal          # Start again
-docker rm -f vishal          # Remove container
-docker rmi vishalxmusic      # Remove image
+docker logs -f shruti        # View logs (Ctrl+C to exit)
+docker stop shruti           # Stop container
+docker start shruti          # Start again
+docker rm -f shruti          # Remove container
+docker rmi shrutimusicbot    # Remove image
 ```
 
   </details>
@@ -265,37 +264,37 @@ docker rmi vishalxmusic      # Remove image
 
 
 
-##
-### ☁️ Quick Deploy
+☁️ Quick Deploy
 
-| Platform                | Deploy Link                                                                                                                                                                                               |
-| ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🔑 **Generate Session** | <a href="https://t.me/SessionBuilderbot"><img src="https://img.shields.io/badge/Session%20-Generator-blue?style=for-the-badge&logo=telegram"/></a>                                                    |
-| 🌍 **Heroku Deploy**    | <a href="http://dashboard.heroku.com/new?template=https://github.com/CertifiedCoders/VishalXMusic"><img src="https://img.shields.io/badge/Deploy%20to-Heroku-purple?style=for-the-badge&logo=heroku"/></a> |
+Platform Deploy Link
+🔑 Generate Session <a href="https://t.me/SessionBuilderbot"><img src="https://img.shields.io/badge/Session%20-Generator-blue?style=for-the-badge&logo=telegram"/></a>
+🌍 Heroku Deploy <a href="http://dashboard.heroku.com/new?template=https://github.com/ItsMeVishal0/VishalMusic"><img src="https://img.shields.io/badge/Deploy%20to-Heroku-purple?style=for-the-badge&logo=heroku"/></a>
 
-
-
-
-## 💬 Community & Support
+💬 Community & Support
 
 <p align="center">
-  <a href="https://t.me/CertifiedCoders">
+  <a href="https://t.me/ItsMeVishalSupport">
     <img src="https://img.shields.io/badge/Support_Group-Telegram-0088cc?style=for-the-badge&logo=telegram&logoColor=white" />
   </a>
-  <a href="https://t.me/CertifiedCodes">
+  <a href="https://t.me/ItsMeVishalBots">
     <img src="https://img.shields.io/badge/Updates_Channel-Telegram-6A5ACD?style=for-the-badge&logo=telegram&logoColor=white" />
   </a>
-  <a href="https://t.me/CertifiedCoder">
+  <a href="https://t.me/Its_me_Vishall">
     <img src="https://img.shields.io/badge/Contact_Owner-Telegram-4CAF50?style=for-the-badge&logo=telegram&logoColor=white" />
   </a>
-  <a href="https://youtube.com/@rajnisha3">
-    <img src="https://img.shields.io/badge/Subscribe-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
-  </a>
-  <a href="https://instagram.com/rajnishthegreat">
-    <img src="https://img.shields.io/badge/Follow-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-  </a>
-  <a href="mailto:rajnishmishraaa1@gmail.com">
-    <img src="https://img.shields.io/badge/Contact-Email-0078D4?style=for-the-badge&logo=gmail&logoColor=white" />
+  <a href="https://t.me/Shrutimusic_bot">
+    <img src="https://img.shields.io/badge/Use_Bot-Telegram-FF69B4?style=for-the-badge&logo=telegram&logoColor=white" />
   </a>
 </p>
 
+---
+
+<p align="center">
+  <i>✨ Made with ❤️ by <a href="https://t.me/Its_me_Vishall">Vishal</a> ✨</i>
+</p>
+
+<!-- ✨ Animated Footer (Bottom) -->
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" />
+</p>

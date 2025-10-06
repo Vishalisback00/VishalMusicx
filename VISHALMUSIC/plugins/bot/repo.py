@@ -8,7 +8,7 @@ repo_caption = """**
 
 ➤ ᴅᴇᴘʟᴏʏ ᴇᴀsɪʟʏ ᴏɴ ʜᴇʀᴏᴋᴜ ᴡɪᴛʜᴏᴜᴛ ᴇʀʀᴏʀꜱ  
 ➤ ɴᴏ ʜᴇʀᴏᴋᴜ ʙᴀɴ ɪꜱꜱᴜᴇ  
-➤ ɴᴏ ɪᴅ ʙᴀɴ ɪꜱꜱᴜᴇ  
+➤ ɴᴏ ɪᴅ ʙᴀɴ ɪꜱꜱᴜᴇ   
 ➤ ᴜɴʟɪᴍɪᴛᴇᴅ ᴅʏɴᴏꜱ  
 ➤ ʀᴜɴ 24/7 ʟᴀɢ ꜰʀᴇᴇ
 
@@ -20,12 +20,12 @@ async def show_repo(_, msg):
     buttons = [
         [InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ✨", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
         [
-            InlineKeyboardButton("👑 ᴏᴡɴᴇʀ", url="https://t.me/CertifiedCoder"),
-            InlineKeyboardButton("💬 ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/CertifiedCodes")
+            InlineKeyboardButton("👑 ᴏᴡɴᴇʀ", url="https://t.me/Its_me_Vishall"),
+            InlineKeyboardButton("💬 ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/Its_me_Vishall")
         ],
         [
-            InlineKeyboardButton("🛠️ ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ", url="https://t.me/CertifiedCoders"),
-            InlineKeyboardButton("🎵 ɢɪᴛʜᴜʙ", url="https://github.com/CertifiedCoders/VishalXMusic")
+            InlineKeyboardButton("🛠️ ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ", url="https://t.me/Its_me_Vishall"),
+            InlineKeyboardButton("🎵 ɢɪᴛʜᴜʙ", url="https://github.com/ItsMeVishal0/VishalMusic")
         ]
     ]
 
@@ -33,7 +33,7 @@ async def show_repo(_, msg):
 
     try:  
         await msg.reply_photo(
-            photo="https://telegra.ph/file/58afe55fee5ae99d6901b.jpg",
+            photo="https://files.catbox.moe/ov6jvf.jpg",
             caption=repo_caption,
             reply_markup=reply_markup
         )

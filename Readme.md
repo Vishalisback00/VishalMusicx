@@ -22,7 +22,7 @@
 <!-- 👁 Visitor Counter -->
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=CertifiedCoders&style=flat-square" />
+  <img src="https://komarev.com/ghpvc/?username=@Its_me_Vishall&style=flat-square" />
 </p>
 
 <h1 align="center">
@@ -30,7 +30,7 @@
 </h1>
 
 <p align="center">
-  <a href="https://t.me/CertifiedCoders">
+  <a href="https://t.me/Its_me_Vishall">
     <img src="https://files.catbox.moe/eh780q.jpg" width="600">
   </a>
 </p>

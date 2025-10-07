@@ -7,19 +7,19 @@ from pyrogram import filters
 load_dotenv()
 
 # ── Core bot config ────────────────────────────────────────────────────────────
-API_ID = int(getenv("API_ID", 27798659))
-API_HASH = getenv("API_HASH", "26100c77cee02e5e34b2bbee58440f86")
+API_ID = int(getenv("API_ID", 2643077))
+API_HASH = getenv("API_HASH", "6586f0276c7748e5484719bdd247d90")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 OWNER_ID = int(getenv("OWNER_ID", 7044783841))
-OWNER_USERNAME = getenv("OWNER_USERNAME", "CertifiedCoder")
-BOT_USERNAME = getenv("BOT_USERNAME", "VishalXRobot")
-BOT_NAME = getenv("BOT_NAME", "˹𝐀ɴɴɪᴇ ✘ 𝙼ᴜsɪᴄ˼ ♪")
-ASSUSERNAME = getenv("ASSUSERNAME", "musicxvishal")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "Its_me_Vishall")
+BOT_USERNAME = getenv("BOT_USERNAME", "Shrutimusic_bot")
+BOT_NAME = getenv("BOT_NAME", "𝐒ʜʀᴜᴛɪ ✘ 𝙼ᴜsɪᴄ˼ ♪")
+ASSUSERNAME = getenv("ASSUSERNAME", "𝐒ʜʀᴜᴛɪ ✘ ᴀꜱꜱɪꜱᴛᴀɴᴛ˼")
 
 # ── Database & logging ─────────────────────────────────────────────────────────
 MONGO_DB_URI = getenv("MONGO_DB_URI")
-LOGGER_ID = int(getenv("LOGGER_ID", -1002014167331))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002425220992))
 
 # ── Limits (durations in min/sec; sizes in bytes) ──────────────────────────────
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
@@ -40,13 +40,13 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 # ── Git / updates ──────────────────────────────────────────────────────────────
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/CertifiedCoders/VishalXMusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Vishalisback00/VishalXmusic")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN")  # needed if repo is private
 
 # ── Support links ──────────────────────────────────────────────────────────────
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/CertifiedNetwork")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/CertifiedDiscussion")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ItsMeVishalBots")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ItsMeVishalSupport")
 
 # ── Assistant auto-leave ───────────────────────────────────────────────────────
 AUTO_LEAVING_ASSISTANT = False
@@ -68,23 +68,29 @@ STRING5 = getenv("STRING_SESSION5")
 
 # ── Media assets ───────────────────────────────────────────────────────────────
 START_VIDS = [
-    "https://telegra.ph/file/9b7e1b820c72a14d90be7.mp4",
-    "https://telegra.ph/file/72f349b1386d6d9374a38.mp4",
-    "https://telegra.ph/file/a4d90b0cb759b67d68644.mp4",
+    "https://files.catbox.moe/7rie2i.mp4",
+    "https://files.catbox.moe/j3ba3f.mp4",
+    "https://files.catbox.moe/mfeisv.mp4",
+    "https://files.catbox.moe/ot88at.mp4",
+    "https://files.catbox.moe/bv29a4.mp4",
+    "https://files.catbox.moe/pndpqt.mp4",
+    "https://files.catbox.moe/tu8l7e.mp4",
+    "https://files.catbox.moe/7ygvch.mp4",
+    "https://files.catbox.moe/jh55tl.mp4",
 ]
 STICKERS = [
     "CAACAgUAAx0Cd6nKUAACASBl_rnalOle6g7qS-ry-aZ1ZpVEnwACgg8AAizLEFfI5wfykoCR4h4E",
     "CAACAgUAAx0Cd6nKUAACATJl_rsEJOsaaPSYGhU7bo7iEwL8AAPMDgACu2PYV8Vb8aT4_HUPHgQ",
 ]
 HELP_IMG_URL = "https://files.catbox.moe/yg2vky.jpg"
-PING_VID_URL = "https://files.catbox.moe/3ivvgo.mp4"
-PLAYLIST_IMG_URL = "https://files.catbox.moe/yhaja5.jpg"
-STATS_VID_URL = "https://telegra.ph/file/e2ab6106ace2e95862372.mp4"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/mlztag.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/tiss2b.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/1d3da7.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/zhymxl.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/veykzq.jpg"
+PING_VID_URL = "https://telegra.ph/file/528d0563175669e123a75.mp4"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/xxzlq3.jpg"
+STATS_VID_URL = "https://files.catbox.moe/ch7geb.mp4"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/48shlf.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/48shlf.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/48shlf.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/48shlf.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/48shlf.jpg"
 SPOTIFY_ARTIST_IMG_URL = SPOTIFY_ALBUM_IMG_URL = SPOTIFY_PLAYLIST_IMG_URL = YOUTUBE_IMG_URL
 
 # ── Helpers ────────────────────────────────────────────────────────────────────
@@ -94,10 +100,24 @@ def time_to_seconds(time: str) -> int:
 DURATION_LIMIT = time_to_seconds(f"{DURATION_LIMIT_MIN}:00")
 
 # ───── Bot Introduction Messages ───── #
-AYU = ["💞", "🦋", "🔍", "🧪", "⚡️", "🔥", "🎩", "🌈", "🍷", "🥂", "🥃", "🕊️", "🪄", "💌", "🧨"]
+AYU = [
+    "❤️", "💞", "🩷", "💋", "🌹", "💫", "💖", "✨", "💘", "💝",
+    "💕", "💗", "💓", "💟", "❣️", "🌸", "🌼", "💐", "🪷", "🌺",
+    "💎", "🌙", "🌟", "🌈", "🦋", "🥰", "😍", "😘", "😚", "😻",
+    "🤍", "💛", "💚", "💙", "💜", "🖤", "🤎", "🩵", "🩶", "💏",
+    "💑", "💍", "💌", "💎", "🌹", "💖", "💘", "💝", "💗", "💞",
+    "❤️‍🔥", "❤️‍🩹", "💓", "💟", "💃", "🕺", "🎶", "🎵", "🎧", "💫",
+    "✨", "🌈", "🌸", "🌺", "🌷", "🌼", "🍀", "🥂", "🍫", "🍓",
+    "🍒", "🍑", "🫶", "🤗", "🤭", "🥹", "💃", "🎀", "💄", "💅",
+    "🕊️", "🐦", "🌌", "🎇", "🎆", "🌠", "🪩", "🎉", "🎊", "🥳",
+    "💞", "💖", "💘", "💝", "💗", "💓", "❤️", "💋", "🌹", "✨",
+    "💫", "🌈", "🦋", "💟", "💍", "💎", "🌸", "🥰", "😍", "💌"
+]
+
 AYUV = [
-    "ʜᴇʟʟᴏ {0}, 🥀\n\n ɪᴛ'ꜱ ᴍᴇ {1} !\n\n┏━━━━━━━━━━━━━━━━━⧫\n┠ ◆ ꜱᴜᴘᴘᴏʀᴛɪɴɢ ᴘʟᴀᴛꜰᴏʀᴍꜱ : ʏᴏᴜᴛᴜʙᴇ, ꜱᴘᴏᴛɪꜰʏ,\n┠ ◆ ʀᴇꜱꜱᴏ, ᴀᴘᴘʟᴇᴍᴜꜱɪᴄ , ꜱᴏᴜɴᴅᴄʟᴏᴜᴅ ᴇᴛᴄ.\n┗━━━━━━━━━━━━━━━━━⧫\n┏━━━━━━━━━━━━━━━━━⧫\n┠ ➥ Uᴘᴛɪᴍᴇ : {2}\n┠ ➥ SᴇʀᴠᴇʀSᴛᴏʀᴀɢᴇ : {3}\n┠ ➥ CPU Lᴏᴀᴅ : {4}\n┠ ➥ RAM Cᴏɴsᴜᴘᴛɪᴏɴ : {5}\n┠ ➥ ᴜꜱᴇʀꜱ : {6}\n┠ ➥ ᴄʜᴀᴛꜱ : {7}\n┗━━━━━━━━━━━━━━━━━⧫\n\n🫧 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🪽 ➪ [»»—— IтＳ ᗰ€ 𝐕𝐢ร卄𝕒ᒪ »︎](https://t.me/Its_me_Vishall)",
-    "ʜɪɪ, {0} ~\n\n◆ ɪ'ᴍ ᴀ {1} ᴛᴇʟᴇɢʀᴀᴍ ꜱᴛʀᴇᴀᴍɪɴɢ ʙᴏᴛ ᴡɪᴛʜ ꜱᴏᴍᴇ ᴜꜱᴇꜰᴜʟ\n◆ ᴜʟᴛʀᴀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ ꜰᴇᴀᴛᴜʀᴇꜱ.\n\n✨ ꜰᴇᴀᴛᴜʀᴇꜱ ⚡️\n◆ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs.\n◆ Sᴜᴘᴇʀғᴀsᴛ ʟᴀɢ Fʀᴇᴇ ᴘʟᴀʏᴇʀ.\n◆ ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜꜱɪᴄ + ᴠɪᴅᴇᴏ.\n◆ ʟɪᴠᴇ ꜱᴛʀᴇᴀᴍɪɴɢ.\n◆ ɴᴏ ᴘʀᴏᴍᴏ.\n◆ ʙᴇꜱᴛ ꜱᴏᴜɴᴅ Qᴜᴀʟɪᴛʏ.\n◆ 24×7 ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜꜱɪᴄ.\n◆ ᴀᴅᴅ ᴛʜɪꜱ ʙᴏᴛ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ɪᴛ ᴀᴅᴍɪɴ ᴀɴᴅ ᴇɴᴊᴏʏ ᴍᴜꜱɪᴄ 🎵.\n\n┏━━━━━━━━━━━━━━━━━⧫\n┠ ◆ ꜱᴜᴘᴘᴏʀᴛɪɴɢ ᴘʟᴀᴛꜰᴏʀᴍꜱ : ʏᴏᴜᴛᴜʙᴇ, ꜱᴘᴏᴛɪꜰʏ,\n┠ ◆ ʀᴇꜱꜱᴏ, ᴀᴘᴘʟᴇᴍᴜꜱɪᴄ , ꜱᴏᴜɴᴅᴄʟᴏᴜᴅ ᴇᴛᴄ.\n┗━━━━━━━━━━━━━━━━━⧫\n┏━━━━━━━━━━━━━━━━━⧫\n┠ ➥ Uᴘᴛɪᴍᴇ : {2}\n┠ ➥ SᴇʀᴠᴇʀSᴛᴏʀᴀɢᴇ : {3}\n┠ ➥ CPU Lᴏᴀᴅ : {4}\n┠ ➥ RAM Cᴏɴsᴜᴘᴛɪᴏɴ : {5}\n┠ ➥ ᴜꜱᴇʀꜱ : {6}\n┠ ➥ ᴄʜᴀᴛꜱ : {7}\n┗━━━━━━━━━━━━━━━━━⧫\n\n🫧 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🪽 ➪ [ »»—— IтＳ ᗰ€ 𝐕𝐢ร卄𝕒ᒪ »︎](https://t.me/Its_me_Vishall)",
+    "💌✨ ʜᴇʟʟᴏ {0} 💞🦋\n\n🌹 ɪᴛ'ꜱ ᴍᴇ {1} 💖💫\n\n┏━━━━━━━━━━━━━━━⧫\n┃ 💫 ꜱᴜᴘᴘᴏʀᴛᴇᴅ ᴘʟᴀᴛꜰᴏʀᴍꜱ:\n┃ 🎵 ʏᴏᴜᴛᴜʙᴇ | ꜱᴘᴏᴛɪꜰʏ | ʀᴇꜱꜱᴏ | ᴀᴘᴘʟᴇᴍᴜꜱɪᴄ | ꜱᴏᴜɴᴅᴄʟᴏᴜᴅ 💌\n┃\n┃ 🔥 ᴜᴘᴛɪᴍᴇ : {2} 🌙\n┃ 💖 ꜱᴇʀᴠᴇʀ sᴛᴏʀᴀɢᴇ : {3} 💫\n┃ ⚡ ᴄᴘᴜ ʟᴏᴀᴅ : {4} 💞\n┃ 🩷 ʀᴀᴍ ᴄᴏɴsᴜᴍᴘᴛɪᴏɴ : {5} 🦋\n┃ 🌈 ᴜsᴇʀs : {6} 💌\n┃ 🕊️ ᴄʜᴀᴛs : {7} 💫\n┗━━━━━━━━━━━━━━━⧫\n\n💌 ᴅᴇᴠᴇʟᴏᴩᴇʀ ➪ [»» IтЅ ᗰ€ 𝐕𝐢ร卄𝕒ᒪ »︎](https://t.me/Its_me_Vishall) 🌹✨",
+
+    "💖🌹 ʜɪ {0} 💫🦋\n\n✨ ɪ'ᴍ {1} 💞 ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜꜱɪᴄ ʙᴏᴛ 🔥\n\n┏━━━━━━━━━━━━━━━⧫\n┃ 🌟 ꜰᴇᴀᴛᴜʀᴇꜱ:\n┃ 🎵 sᴜᴘᴇʀꜰᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ 💌\n┃ 🎶 ᴘʟᴀʏ ᴍᴜꜱɪᴄ & ᴠɪᴅᴇᴏ 💫\n┃ 🌈 ʟɪᴠᴇ ꜱᴛʀᴇᴀᴍɪɴɢ 🕊️\n┃ 🩷 24x7 ᴍᴜꜱɪᴄ ᴄʜɪʟʟ 💖\n┃ 💌 ɴᴏ ᴘʀᴏᴍᴏ 🌹\n┃\n┃ 🔥 ᴜᴘᴛɪᴍᴇ : {2} 💫\n┃ 💖 ꜱᴇʀᴠᴇʀ sᴛᴏʀᴀɢᴇ : {3} 🌈\n┃ ⚡ ᴄᴘᴜ ʟᴏᴀᴅ : {4} 💞\n┃ 🩷 ʀᴀᴍ ᴄᴏɴsᴜᴍᴘᴛɪᴏɴ : {5} 🦋\n┃ 🌹 ᴜsᴇʀs : {6} 💌\n┃ 🕊️ ᴄʜᴀᴛs : {7} 💫\n┗━━━━━━━━━━━━━━━⧫\n\n💌 ᴅᴇᴠᴇʟᴏᴩᴇʀ ➪ [»» IтЅ ᗰ€ 𝐕𝐢ร卄𝕒ᒪ »︎](https://t.me/Its_me_Vishall) 💖🌸",
 ]
 
 # ── Runtime structures ─────────────────────────────────────────────────────────

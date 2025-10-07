@@ -11,10 +11,10 @@
   <table>
     <tr>
       <td align="center">
-        <img src="https://files.catbox.moe/r2ga8f.jpg" width="90px" style="border-radius: 50%;" />
+        <img src="https://files.catbox.moe/53szdj.jpg" width="90px" style="border-radius: 50%;" />
       </td>
       <td>
-        <img src="https://readme-typing-svg.herokuapp.com?color=00BFFF&width=600&lines=Hey+There,+This+is+Vishal+%F0%9F%A5%80+%E2%9D%97%EF%B8%8F" />
+        <img src="https://readme-typing-svg.herokuapp.com?font=Dark+Bolt&color=00BFFF&width=600&lines=Hey+There,+This+is+Vishal+%F0%9F%A5%80+%E2%9D%97%EF%B8%8F" />
       </td>
     </tr>
   </table>
@@ -27,12 +27,12 @@
 </p>
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=FF69B4&width=500&lines=Welcome+to+Shruti+Music+%F0%9F%8E%B6+The+Robot;Your+Ultimate+Telegram+Music+Bot" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Dark+Bolt&color=FF69B4&width=500&lines=Welcome+to+Shruti+Music+%F0%9F%8E%B6+The+Robot;Your+Ultimate+Telegram+Music+Bot" />
 </h1>
 
 <p align="center">
   <a href="https://t.me/Its_me_Vishall">
-    <img src="https://files.catbox.moe/eh780q.jpg" width="600">
+    <img src="https://files.catbox.moe/48shlf.jpg" width="600">
   </a>
 </p>
 
@@ -95,8 +95,6 @@ API_URL=             # Optional - External API url for music Download
 ```
 
 ⚠️ Never expose raw cookies or tokens in public repos. Use safe paste services like Pastebin or Batbin.
-
-
 
 <details>
   <summary><b>Where do I get each key?</b></summary>
@@ -187,8 +185,6 @@ API_URL=             # Optional - External API url for music Download
   <br/>
 </details>
 
-
-
 ☕ VPS Setup Guide
 
 <img src="https://img.shields.io/badge/Show%20/Hide-VPS%20Steps-0ea5e9?style=for-the-badge" alt="Toggle VPS Steps"/>
@@ -227,8 +223,6 @@ rm -rf VishalMusic  # Uninstall the repo
   </details>
 </div>
 
-
-
 🐳 Docker Deployment
 
 <img src="https://img.shields.io/badge/Show%20/Hide-Docker%20Steps-10b981?style=for-the-badge" alt="Toggle Docker Steps"/>
@@ -262,13 +256,11 @@ docker rmi shrutimusicbot    # Remove image
   </details>
 </div>
 
-
-
 ☁️ Quick Deploy
 
 Platform Deploy Link
-🔑 Generate Session <a href="https://t.me/SessionBuilderbot"><img src="https://img.shields.io/badge/Session%20-Generator-blue?style=for-the-badge&logo=telegram"/></a>
-🌍 Heroku Deploy <a href="http://dashboard.heroku.com/new?template=https://github.com/ItsMeVishal0/VishalMusic"><img src="https://img.shields.io/badge/Deploy%20to-Heroku-purple?style=for-the-badge&logo=heroku"/></a>
+🔑Generate Session <a href="https://t.me/SessionBuilderbot"><img src="https://img.shields.io/badge/Session%20-Generator-blue?style=for-the-badge&logo=telegram"/></a>
+🌍Heroku Deploy <a href="http://dashboard.heroku.com/new?template=https://github.com/ItsMeVishal0/VishalMusic"><img src="https://img.shields.io/badge/Deploy%20to-Heroku-purple?style=for-the-badge&logo=heroku"/></a>
 
 💬 Community & Support
 

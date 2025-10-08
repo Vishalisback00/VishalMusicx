@@ -7,8 +7,8 @@ from pyrogram import filters
 load_dotenv()
 
 # ── Core bot config ────────────────────────────────────────────────────────────
-API_ID = int(getenv("API_ID", 2643077))
-API_HASH = getenv("API_HASH", "6586f0276c7748e5484719bdd247d90")
+API_ID = int(getenv("API_ID", 26493077))
+API_HASH = getenv("API_HASH", "6586f0276c7748e54684719bdd247d90")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 OWNER_ID = int(getenv("OWNER_ID", 7044783841))

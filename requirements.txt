@@ -3,7 +3,7 @@ aiohttp
 apscheduler
 asyncio
 bing_image_downloader
-bs4
+beautifulsoup4
 deepai
 edge-tts
 ffmpeg-python
@@ -41,3 +41,4 @@ tgcrypto
 unidecode
 wget
 yt-dlp==2025.9.23
+git+https://github.com/CertifiedCoders/youtube-search-python

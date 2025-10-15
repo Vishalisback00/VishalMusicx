@@ -282,7 +282,7 @@ Platform Deploy Link
 ---
 
 <p align="center">
-  <i>✨ Made with ❤️ by <a href="https://t.me/Its_me_Vishall">Vishal</a> ✨</i>
+  <i>✨ SPECIAL THANKS FOR ❤️<a href="https://t.me/CertifiedCoder">JARVIS</a> ✨</i>
 </p>
 
 <!-- ✨ Animated Footer (Bottom) -->

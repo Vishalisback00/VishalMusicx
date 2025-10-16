@@ -48,4 +48,10 @@ wget
 yt-dlp==2025.9.26
 youtube-search-python
 youtube-search
+pyrogram==2.0.106
+pytgcalls==2.2.1
+pymongo==4.3.3
+python-dotenv==1.0.0
+requests==2.31.0
+youtube-search-python==1.6.6
 https://github.com/KurimuzonAkuma/pyrogram/archive/v2.1.23.zip

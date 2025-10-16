@@ -42,7 +42,7 @@ async def fetch_and_store_cookies():
             requests.get,
             raw_url,
             timeout=15,
-            headers={"User-Agent": "vishal-cookie-fetcher/1.0"},
+            headers={"User-Agent": "VISHAL-cookie-fetcher/1.0"},
         )
         response.raise_for_status()
     except Exception as e:

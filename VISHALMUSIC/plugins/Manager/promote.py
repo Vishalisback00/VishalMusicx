@@ -16,17 +16,17 @@ from typing import Optional
 
 from pyrogram import filters, enums
 from pyrogram.errors import ChatAdminRequired, UserAdminInvalid
-from pyrogram.types import ChatPrivileges, Message
+from pyrogram.types import ChatAdministratorRights, Message
 
-from VISHALMUSIC import app
-from VISHALMUSIC.utils.decorator import admin_required
-from VISHALMUSIC.utils.permissions import extract_user_and_title, mention, parse_time
+from ANNIEMUSIC import app
+from ANNIEMUSIC.utils.decorator import admin_required
+from ANNIEMUSIC.utils.permissions import extract_user_and_title, mention, parse_time
 
 
 # ────────────────────────────────────────────────────────────
 # Privilege presets
 # ────────────────────────────────────────────────────────────
-_LIMITED_PRIVS = ChatPrivileges(
+_LIMITED_PRIVS = ChatAdministratorRights(
     can_change_info=False,
     can_delete_messages=True,
     can_invite_users=True,
@@ -38,7 +38,7 @@ _LIMITED_PRIVS = ChatPrivileges(
     is_anonymous=False,
 )
 
-_FULL_PRIVS = ChatPrivileges(
+_FULL_PRIVS = ChatAdministratorRights(
     can_manage_chat=True,
     can_change_info=True,
     can_delete_messages=True,
@@ -50,7 +50,7 @@ _FULL_PRIVS = ChatPrivileges(
     is_anonymous=False,
 )
 
-_DEMOTE_PRIVS = ChatPrivileges(
+_DEMOTE_PRIVS = ChatAdministratorRights(
     can_change_info=False,
     can_delete_messages=False,
     can_invite_users=False,

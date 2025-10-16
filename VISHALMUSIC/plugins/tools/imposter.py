@@ -78,7 +78,7 @@ async def chk_usr(_, message: Message):
 **🍕 ᴛᴏ** : {aft}
 ━━━━━━━━━━━━━━━  \n
 """.format(
-            bef=lastname_before, aft=lastname_after
+            bef=lastname_before, aft=lastname_after 
         )
         await add_userdata(
             message.from_user.id,
@@ -87,7 +87,7 @@ async def chk_usr(_, message: Message):
             message.from_user.last_name,
         )
     if msg != "":
-        await message.reply_photo("https://telegra.ph/file/58afe55fee5ae99d6901b.jpg", caption=msg)
+        await message.reply_photo("https://files.catbox.moe/ov6jvf.jpg", caption=msg)
 
 
 @app.on_message(filters.group & filters.command("imposter") & ~filters.bot & ~filters.via_bot & admin_filter)

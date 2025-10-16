@@ -5,6 +5,7 @@ asyncio
 bing_image_downloader
 bs4
 deepai
+dnspython
 edge-tts
 ffmpeg-python
 future
@@ -13,8 +14,9 @@ google-api-python-client
 gpytranslate
 gtts
 heroku3
-httpx[http2]==0.28.1
-kurigram==2.2.13
+httpx[http2]==0.27.2
+hachoir
+kurigram==2.2.12
 lexica-api
 motor
 nekosbest
@@ -29,8 +31,9 @@ pydub
 pyfiglet
 pyshorteners
 python-dotenv
+pykeyboard
 python-whois
-py-yt-search
+pymongo==3.12.0
 pyyaml
 qrcode
 requests
@@ -40,5 +43,9 @@ spotipy
 telegraph
 tgcrypto
 unidecode
+uvloop;sys_platform != "win32"
 wget
-yt-dlp==2025.10.14
+yt-dlp==2025.9.26
+youtube-search-python
+youtube-search
+https://github.com/KurimuzonAkuma/pyrogram/archive/v2.1.23.zip

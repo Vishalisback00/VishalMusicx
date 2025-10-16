@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -Eeuo pipefail
 
-# ======== VishalXMusic Setup (stable) ========
+# ======== VISHALMUSIC Setup (stable) ========
 # - Debian/Ubuntu apt only
 # - Required/optional prompts, clear after config
 # - Environment Summary table neatly aligned
@@ -174,7 +174,7 @@ final_notes(){
     warn  "Start script not found — run your launcher from project root"
   fi
   printf "\nLogs:\n  - %s\n  - %s\n  - %s\n" "$APTLOG" "$NODELOG" "$PYLOG"
-  printf "\n%sThank you for using Vishal Installer%s\n" "$(c bold)$(c cyan)" "$(c reset)"
+  printf "\n%sThank you for using VISHAL Installer%s\n" "$(c bold)$(c cyan)" "$(c reset)"
 }
 
 main(){

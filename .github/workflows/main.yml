@@ -10,27 +10,27 @@ on:
 
 jobs:
   run-bot:
-    name: Setup & Run VishalMusic
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # 2. Setup Python 3.10
-      - name: Setup Python
+      - name: Setup Python 3.10
         uses: actions/setup-python@v4
         with:
           python-version: "3.10"
 
-      # 3. Install dependencies
+      - name: Install ffmpeg and ffprobe
+        run: |
+          sudo apt update
+          sudo apt install -y ffmpeg
+
       - name: Install dependencies
         run: |
           python3 -m pip install --upgrade pip
           pip3 install -r requirements.txt
 
-      # 4. Create .env from GitHub secrets
       - name: Create .env file
         run: |
           echo "API_ID=${{ secrets.API_ID }}" >> .env
@@ -45,7 +45,6 @@ jobs:
           echo "API_KEY=${{ secrets.API_KEY }}" >> .env
           echo "API_URL=${{ secrets.API_URL }}" >> .env
 
-      # 5. Run bot
       - name: Run VishalMusic Bot
         run: |
           python3 -m VISHALMUSIC

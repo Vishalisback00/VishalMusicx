@@ -49,4 +49,4 @@ yt-dlp==2025.9.26
 youtube-search-python==1.6.6
 youtube-search
 pytgcalls==2.2.1
-git+https://github.com/KurimuzonAkuma/pyrogram/archive/v2.1.23.zip
+git+https://github.com/pyrogram/pyrogram.git@v2.1.23#egg=pyrogram
